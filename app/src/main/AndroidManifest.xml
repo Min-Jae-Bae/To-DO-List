@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ToDOList">
         <activity
+            android:name=".TodoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_todo"
+            android:theme="@style/Theme.ToDOList" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
